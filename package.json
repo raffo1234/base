@@ -32,5 +32,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@ableco/eslint-config": "^0.3.0",
+    "@arkweid/lefthook": "^0.7.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "6.6.0",
+    "eslint-import-resolver-webpack": "^0.12.1",
+    "eslint-utils": "^2.0.0",
+    "prettier": "^2.0.5"
   }
 }
