@@ -5,8 +5,9 @@ module.exports = {
       transparent: "transparent",
       white: "#fff",
       black: "#000",
+      background: "#191E33",
       primary: {
-        base: "#cccccc",
+        base: "#5A67ED",
         dark: "#0b3054",
         light: "#c1dbf4",
       },
@@ -21,8 +22,8 @@ module.exports = {
         light: "#fbd6b4",
       },
       neutral: {
-        100: "#e8f0f7",
-        200: "#d3dae0",
+        100: "#f6f8f9",
+        200: "#e5e9ec",
         300: "#b3bac1",
         400: "#909ca3",
         500: "#61676c",
@@ -36,6 +37,10 @@ module.exports = {
         warning: "#ffcd5f",
         info: "#c7e4ff",
       },
+    },
+    height: {
+      header: "56px",
+      body: "calc(100vh - 56px)",
     },
   },
   variants: [

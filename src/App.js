@@ -1,20 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Stack } from "@ableco/baseline";
 import Home from "components/Home";
 import Dashboard from "components/Dashboard";
+import { Stack, Flex, Text } from "@ableco/baseline";
 
 function App() {
   return (
     <Router>
-      <Stack as="nav">
-        <Stack as="ul">
-          <li>
+      <Flex>
+        <Stack as="ul" className="w-48">
+          <Text>
             <Link to="/">Home</Link>
-          </li>
-          <li>
+          </Text>
+          <Text>
             <Link to="/dashboard">Dashboard</Link>
-          </li>
+          </Text>
         </Stack>
         <hr />
         <Switch>
@@ -25,7 +25,7 @@ function App() {
             <Dashboard />
           </Route>
         </Switch>
-      </Stack>
+      </Flex>
     </Router>
   );
 }
