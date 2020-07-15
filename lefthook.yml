@@ -6,6 +6,6 @@ pre-commit:
     lint:
       glob: "*.{js,ts}"
       run: npx eslint --fix {staged_files}
-    frontend-style:
+    stylelint:
       glob: "*.{css}"
       run: npx stylelint --fix {staged_files}
