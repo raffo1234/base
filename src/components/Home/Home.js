@@ -7,6 +7,7 @@ const Home = () => (
     <Text as="h2">My Button</Text>
     <MyButton>My button</MyButton>
     <Text as="h2">Buttons demo</Text>
+    <Button color="primary">Button Primary</Button>
     <Button color="secondary">Button secondary</Button>
     <Button color="tertiary">Button tertiary</Button>
     <Text as="h2">Flex demo</Text>
