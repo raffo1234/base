@@ -1,5 +1,7 @@
 import React from "react";
 import { Stack, Button, Flex, Text } from "@ableco/baseline";
+import { ReactComponent as CloseIcon } from "icons/close.svg";
+import { Lock } from "@baseline/icons";
 
 const Dashboard = () => (
   <Flex className="h-screen flex-grow" direction="vertical">
@@ -28,6 +30,10 @@ const Dashboard = () => (
         </Flex>
         <Stack className="overflow-auto flex-grow w-full">
           <Stack className="w-full bg-white px-4 py-2 rounded-md mb-2">
+            <Flex>
+              <Lock className="w-6 h-6 fill-current text-neutral-400" />
+              <CloseIcon className="w-6 h-6 fill-current text-neutral-400" />
+            </Flex>
             OKRs Hierarchy
           </Stack>
           <Stack className="w-full bg-white px-4 py-2 rounded-md mb-2">
