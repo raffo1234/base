@@ -22,7 +22,11 @@ const BacklogColumn = () => {
         <Stack className="w-full bg-white px-4 py-2 rounded-md mb-2">
           <Flex>
             <Lock className="w-6 h-6 fill-current text-neutral-400" />
-            <CloseIcon className="w-6 h-6 fill-current text-neutral-400" />
+            <Text className="text-primary-base">
+              <Text>
+                <CloseIcon width="22" height="22" />
+              </Text>
+            </Text>
           </Flex>
           OKRs Hierarchy
         </Stack>
