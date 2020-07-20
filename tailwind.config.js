@@ -24,7 +24,7 @@ module.exports = {
       neutral: {
         100: "#f6f8f9",
         200: "#e5e9ec",
-        300: "#b3bac1",
+        300: "#3C3F53",
         400: "#909ca3",
         500: "#61676c",
         600: "#414a51",
@@ -36,6 +36,10 @@ module.exports = {
         alert: "#d2240b",
         warning: "#ffcd5f",
         info: "#c7e4ff",
+      },
+      icon: {
+        size: "16px",
+        color: "green",
       },
     },
     height: {
